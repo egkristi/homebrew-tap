@@ -2,25 +2,25 @@ class Ravenrag < Formula
   desc "Local-first RAG engine — fast, safe, embeddable retrieval-augmented generation in Rust"
   homepage "https://github.com/egkristi/ravenrustrag"
   license "AGPL-3.0-or-later"
-  version "1.0.0"
+  version "1.0.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/egkristi/ravenrustrag/releases/download/v1.0.0/raven-darwin-arm64"
-      sha256 "deea290a53ef9cf0a15bc9094863f12fd35dbd11249a8d35b24e33c705f9430b"
+      url "https://github.com/egkristi/ravenrustrag/releases/download/v1.0.1/raven-darwin-arm64"
+      sha256 "6cfdac9a0799855a7343640457d5ed558cb67b77fba99954dc839c03cbcda60a"
     else
-      url "https://github.com/egkristi/ravenrustrag/releases/download/v1.0.0/raven-darwin-amd64"
-      sha256 "c058452c66357e84a488ac1fcf09abf86dfdfd2251da6520e5271b1379748e46"
+      url "https://github.com/egkristi/ravenrustrag/releases/download/v1.0.1/raven-darwin-amd64"
+      sha256 "d048c33f5b736937768f82b970892bf7e0a1d3c7bb5f3607a57ecf98ba68b9f8"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/egkristi/ravenrustrag/releases/download/v1.0.0/raven-linux-arm64"
-      sha256 "508f8a57c8311a806f114c4dee1ac2fa5248b61f39db410aba09bca52d71fd64"
+      url "https://github.com/egkristi/ravenrustrag/releases/download/v1.0.1/raven-linux-arm64"
+      sha256 "20a8a2d90de6ca301cf689e1eae4790f854f52100746f09c12c57c828e431964"
     elsif Hardware::CPU.intel?
-      url "https://github.com/egkristi/ravenrustrag/releases/download/v1.0.0/raven-linux-amd64"
-      sha256 "2faa23e54f8759ab8ea9d1c2e37afd59d0106c9654120616cc710379575e6d87"
+      url "https://github.com/egkristi/ravenrustrag/releases/download/v1.0.1/raven-linux-amd64"
+      sha256 "544993fa6cd713603917eed8119550b8f40364c51c096b6961d601776d848539"
     end
   end
 
