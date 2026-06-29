@@ -7,7 +7,7 @@ class Ravenfabric < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/egkristi/RavenFabric-Published/releases/download/v1.0.0-beta.1/ravenfabric-darwin-arm64-cli"
-      sha256 "1f883eb8c5ace7f58d06425dfe63e9f5c76da85ecf61f320ca117a64389c5ee6"
+      sha256 "da39e2e9f4086816b9b9c84437fc0d53f7030704091018f09aeeaa0ff812014f"
     else
       url "https://github.com/egkristi/RavenFabric-Published/releases/download/v1.0.0-beta.1/ravenfabric-darwin-amd64-cli"
       sha256 "b6d1164c60a8cc41225f269ea899c790ceb55dc5f49a40e0c24505249d6d1e22"
