@@ -1,26 +1,26 @@
 class Ravenfabric < Formula
   desc "Secure remote execution and mesh networking agent"
   homepage "https://ravenfabric.io"
-  version "1.0.0-beta.2"
+  version "1.0.0-beta.3"
   license "AGPL-3.0-or-later"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/egkristi/RavenFabric-Published/releases/download/v1.0.0-beta.2/ravenfabric-darwin-arm64-cli"
-      sha256 "a1b5a08e812d3b1c6a2a9bf809f898d28342c37e1c5c4018609251a91b0f387f"
+      url "https://github.com/egkristi/RavenFabric-Published/releases/download/v1.0.0-beta.3/ravenfabric-darwin-arm64-cli"
+      sha256 "044a9bc5dd631588b9ad454e30e0a5a3327c9e5ea399434b37fc05ecba09db5c"
     else
-      url "https://github.com/egkristi/RavenFabric-Published/releases/download/v1.0.0-beta.2/ravenfabric-darwin-amd64-cli"
-      sha256 "fa5660816cb5c1fbf2087b93f0ee75deacfcf7233466031ae681c47197a80c54"
+      url "https://github.com/egkristi/RavenFabric-Published/releases/download/v1.0.0-beta.3/ravenfabric-darwin-amd64-cli"
+      sha256 "0b2049ff5290579fe8bc6b52fd71ed5ecf607d433bb3ea6782d18eb4c6acd787"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/egkristi/RavenFabric-Published/releases/download/v1.0.0-beta.2/ravenfabric-linux-arm64-musl-cli"
-      sha256 "6ea80ab3705d28c16a697b1a78850b8db861d06836faebad8f1a6c0f0a558286"
+      url "https://github.com/egkristi/RavenFabric-Published/releases/download/v1.0.0-beta.3/ravenfabric-linux-arm64-musl-cli"
+      sha256 "5bfbbc16175f5f64dab736fb3b30a940e4762b36a977c85ecf53ee9660e5c5db"
     else
-      url "https://github.com/egkristi/RavenFabric-Published/releases/download/v1.0.0-beta.2/ravenfabric-linux-amd64-musl-cli"
-      sha256 "2432762913f38a1be81f5aab3b935785254bd5ef4d8efda17aafde37b5d27a43"
+      url "https://github.com/egkristi/RavenFabric-Published/releases/download/v1.0.0-beta.3/ravenfabric-linux-amd64-musl-cli"
+      sha256 "e6c768240da5803d456edd444e2652282df32479784b7e4ae0bcf891f6a9331d"
     end
   end
 
